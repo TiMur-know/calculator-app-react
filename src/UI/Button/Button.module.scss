@@ -1,0 +1,20 @@
+$r:255;
+$g:100;
+$b:100;
+
+.button{
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	height: 50px;
+	width: 80px;
+	margin:5px;
+	border-radius: 4px;
+	background-color: rgb($r,$g,$b);
+	transition: 0.6s ease-in-out;
+}
+.button:hover{
+	background-color: rgb(calc($r*2),calc($g*2),calc($b*2));
+	
+}

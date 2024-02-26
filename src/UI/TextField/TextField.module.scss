@@ -1,0 +1,22 @@
+.textField{
+	border: 1px solid black;
+	border-radius: 10px;
+	margin:0px 15px;
+	display: flex;
+	
+	.space{
+		border-right: 1px solid black;
+		width: 100%;
+		
+		.number{
+			padding: 10px;
+			text-align: right;
+		}
+		
+	}
+	.button{
+		width: 50px;
+		padding: 10px;
+	}
+	
+}
